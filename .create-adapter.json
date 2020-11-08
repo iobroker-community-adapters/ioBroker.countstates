@@ -1,0 +1,41 @@
+{
+	"cli": true,
+	"adapterName": "countstates",
+	"title": "CountStates",
+	"description": "find similar states in db and show their current status",
+	"keywords": [
+		"states battery window"
+	],
+	"expert": "yes",
+	"features": [
+		"adapter",
+		"vis"
+	],
+	"adminFeatures": [
+		"tab"
+	],
+	"type": "hardware",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"adminReact": "yes",
+	"tools": [
+		"ESLint",
+		"type checking",
+		"devcontainer"
+	],
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "EdgarM73",
+	"authorGithub": "EdgarM73",
+	"authorEmail": "edgar.miller@gmail.com",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "yes",
+	"license": "MIT License",
+	"ci": "gh-actions",
+	"dependabot": "yes",
+	"creatorVersion": "1.30.0"
+}

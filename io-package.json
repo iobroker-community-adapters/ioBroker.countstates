@@ -1,0 +1,99 @@
+{
+	"common": {
+		"name": "countstates",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "CountStates",
+		"titleLang": {
+			"en": "CountStates",
+			"de": "CountStates",
+			"ru": "CountStates",
+			"pt": "CountStates",
+			"nl": "CountStates",
+			"fr": "CountStates",
+			"it": "CountStates",
+			"es": "CountStates",
+			"pl": "CountStates",
+			"zh-cn": "计数状态"
+		},
+		"desc": {
+			"en": "find similar states in db and show their current status",
+			"de": "Finden Sie ähnliche Zustände in db und zeigen Sie ihren aktuellen Status an",
+			"ru": "найти похожие состояния в базе данных и показать их текущий статус",
+			"pt": "encontre estados semelhantes no banco de dados e mostre seu status atual",
+			"nl": "vind vergelijkbare toestanden in db en toon hun huidige status",
+			"fr": "trouver des états similaires dans db et afficher leur état actuel",
+			"it": "trova stati simili in db e mostra il loro stato corrente",
+			"es": "encontrar estados similares en db y mostrar su estado actual",
+			"pl": "znajdź podobne stany w db i pokaż ich aktualny stan",
+			"zh-cn": "在db中找到相似的状态并显示其当前状态"
+		},
+		"authors": [
+			"EdgarM73 <edgar.miller@gmail.com>"
+		],
+		"keywords": [
+			"states battery window"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "countstates.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/EdgarM73/ioBroker.countstates/master/admin/countstates.png",
+		"readme": "https://github.com/EdgarM73/ioBroker.countstates/blob/master/README.md",
+		"loglevel": "info",
+		"restartAdapters": [
+			"vis"
+		],
+		"localLink": "%web_protocol%://%ip%:%web_port%/vis/edit.html",
+		"mode": "daemon",
+		"type": "hardware",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"materialize": true,
+		"materializeTab": true,
+		"adminTab": {
+			"singleton": true,
+			"name": {
+				"en": "CountStates",
+				"de": "CountStates",
+				"ru": "CountStates",
+				"pt": "CountStates",
+				"nl": "CountStates",
+				"fr": "CountStates",
+				"it": "CountStates",
+				"es": "CountStates",
+				"pl": "CountStates",
+				"zh-cn": "计数状态"
+			},
+			"link": "",
+			"fa-icon": "info"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			},
+			"vis"
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
